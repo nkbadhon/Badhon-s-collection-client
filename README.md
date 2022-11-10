@@ -5,7 +5,9 @@ Project Link:
 
 
 Features And Functionalities:
-1. In home there are a 
+1. There is a navbar, navbar can take you to home,blogs,login any time.
+2. There is a course section after the carousel, you can seesome courses there. 
+3. 
 
 
 
