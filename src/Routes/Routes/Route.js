@@ -32,7 +32,7 @@ export const router = createBrowserRouter([
             {
                 path: '/eachdetails/:id',
                 element: <PrivetRoute><EachDetails></EachDetails></PrivetRoute>,
-                loader: ({ params }) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({ params }) => fetch(`https://badhons-collection-server.vercel.app/services/${params.id}`)
             },
             {
                 path: '/myrev',

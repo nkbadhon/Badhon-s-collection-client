@@ -35,7 +35,7 @@ const EachDetails = () => {
         }
 
 
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://badhons-collection-server.vercel.app/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -59,7 +59,7 @@ const EachDetails = () => {
     const [aaa, setAaa] = useState([]);
     useEffect(() => {
 
-        fetch('http://localhost:5000/reviews')
+        fetch('https://badhons-collection-server.vercel.app/reviews')
             .then(res => res.json())
             .then(data => setAaa(data))
 
