@@ -17,7 +17,10 @@ const Blog = () => {
                 <h4><strong>Question: </strong>What is the difference between javascript and Node JS?</h4>
                 <p> <strong>Answer: </strong>JavaScript is a simple programming language that can be used with any browser that has the JavaScript Engine installed. Node. js, on the other hand, is an interpreter or execution environment for the JavaScript programming language.</p>
             </div>
-
+            <div className=' '>
+                <h4><strong>Question: </strong>How does Node JS handle multiple requests at the same time?</h4>
+                <p> <strong>Answer: </strong>How NodeJS handle multiple client requests? NodeJS receives multiple client requests and places them into EventQueue. NodeJS is built with the concept of event-driven architecture. NodeJS has its own EventLoop which is an infinite loop that receives requests and processes them.</p>
+            </div>
 
 
         </div>
