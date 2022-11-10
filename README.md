@@ -7,8 +7,9 @@ Project Link:
 Features And Functionalities:
 1. There is a navbar, navbar can take you to home,blogs,login any time.
 2. There is a course section after the carousel, you can seesome courses there.
-3. You can purchase any service through secure gateway.  
+3. You can purchase any service through secure gateway. To know about gateway you can go to pay option from home page.
 4. After the course there is a Small biography section where you can find author details.
+5. You can add andsee the review on each product.
 
 
 
