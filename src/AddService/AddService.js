@@ -45,17 +45,16 @@ const AddService = () => {
 
     return (
         <div>
-            <h2 className='text-5xl text-center my-5 text-green-700 font-bold'>Add your Services</h2>
+            <h2 className='text-5xl text-center my-5 text-teal-600 font-bold'>Add your Services</h2>
             <form onSubmit={handleAddServices}>
                 <div className='grid grid-cols-1 lg:grid-cols-1 gap-4'>
-                    {/* <input type="text" placeholder="Your review" className="input input-ghost w-full input-bordered" /> */}
                     <input name='name' type="text" placeholder="Your service name" className="input input-ghost w-full input-bordered" required />
                     <input name='email' type="text" placeholder="Your email" defaultValue={user?.email} className="input input-ghost w-full input-bordered" readOnly />
-                    <input name='price' type="text" placeholder="Service price" className="input input-ghost w-full input-bordered" />
+                    <input name='price' type="text" placeholder="Service price" className=" mb-2 input input-ghost w-full input-bordered" />
                 </div>
-                <textarea name='description' className="textarea textarea-bordered h-24 w-full" placeholder="Your Service Details" required></textarea>
+                <textarea name='description' className=" textarea textarea-bordered h-24 w-full" placeholder="Your Service Details" required></textarea>
 
-                <input className='btn btn-primary' type="submit" value="Add" />
+                <input className='btn btn-teal-600 w-full my-3' type="submit" value="Add" />
             </form>
             {/* <ToastContainer /> */}
         </div>
