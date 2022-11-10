@@ -13,17 +13,21 @@ const Services = () => {
     }, [])
 
     return (
-        <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-            {
+        <div>
 
-                ser.map(serv => <ServiceCard
-                    key={serv._id}
-                    serv={serv}
-                ></ServiceCard>)
+            <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+                {
 
-            }
+                    ser.map(serv => <ServiceCard
+                        key={serv._id}
+                        serv={serv}
+                    ></ServiceCard>)
 
-            <Link to='/allservices'><button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">See All Services</button></Link>
+                }
+
+            </div>
+            <div><Link to='/allservices'><button className="btn w-full text-center my-4 btn-xs sm:btn-sm md:btn-md lg:btn-lg">See All Services</button></Link></div>
+
         </div>
     );
 };

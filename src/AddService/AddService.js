@@ -55,7 +55,7 @@ const AddService = () => {
                 </div>
                 <textarea name='description' className="textarea textarea-bordered h-24 w-full" placeholder="Your Service Details" required></textarea>
 
-                <input className='btn btn-primary' type="submit" value="Place your Review" />
+                <input className='btn btn-primary' type="submit" value="Add" />
             </form>
             {/* <ToastContainer /> */}
         </div>
