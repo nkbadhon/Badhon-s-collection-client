@@ -44,6 +44,9 @@ const Header = () => {
                 <ul className="menu menu-horizontal p-0">
                     <li className='font-semibold'><Link to='/'>Home</Link></li>
                 </ul>
+                <ul className="menu menu-horizontal p-0">
+                    <li className='font-semibold'><Link to='/blog'>Blog</Link></li>
+                </ul>
                 <div className=" menu menu-horizontal p-0 font-semibold">
                     {
                         user?.email ?
